@@ -6,7 +6,7 @@
 let DEFAULT_STRING = "#@%&*!(){}[]=_+|/\/ABCDEFGHIJKLMOPQRSTUVWXYZ1234567890"
 let DEFAULT_NUMBER = 1234567890
 
-exports.DEFAULT_STRING = function(string = DEFAULT_STRING, strength = 16) {
+export function UNIQUE_STRING(string = DEFAULT_STRING, strength = 16) {
     let string_length = string.length;
     let unique_string = '';
     for (let i = strength; i > 0; i--) {
@@ -17,7 +17,7 @@ exports.DEFAULT_STRING = function(string = DEFAULT_STRING, strength = 16) {
     return unique_string;
 }
 
-exports.UNIQUE_NUMBER = function(number = DEFAULT_NUMBER, strength = 16) {
+export function UNIQUE_NUMBER(number = DEFAULT_NUMBER, strength = 16) {
     number = number.toString()
     let number_length = number.length;
     let unique_number = '';
