@@ -1,5 +1,5 @@
 {
-  "name": "randomvalues",
+  "name": "uniquechars",
   "version": "1.0.0",
   "description": "Generate unique strings and numbers from a strings or numbers. Good for generating unique ids, usernames, file names and passwords.",
   "main": "index.js",
@@ -30,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/vahlcode/uniquevalues/issues"
   },
-  "homepage": "https://github.com/vahlcode/uniquevalues#readme"
+  "homepage": "https://github.com/vahlcode/uniquevalues#readme",
+  "publishConfig": { "access": "public", "branches": ["master"] }
 }
