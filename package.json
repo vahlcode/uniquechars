@@ -1,11 +1,12 @@
 {
   "name": "uniquechars",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate unique strings and numbers from a strings or numbers. Good for generating unique ids, usernames, file names and passwords.",
-  "main": "index.js",
-  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,10 @@
     "url": "https://github.com/vahlcode/uniquevalues/issues"
   },
   "homepage": "https://github.com/vahlcode/uniquevalues#readme",
-  "publishConfig": { "access": "public", "branches": ["master"] }
+  "publishConfig": {
+    "access": "public",
+    "branches": [
+      "master"
+    ]
+  }
 }
