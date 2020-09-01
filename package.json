@@ -1,0 +1,34 @@
+{
+  "name": "randomvalues",
+  "version": "1.0.0",
+  "description": "Generate unique strings and numbers from a strings or numbers. Good for generating unique ids, usernames, file names and passwords.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vahlcode/uniquevalues.git"
+  },
+  "keywords": [
+    "Strings",
+    "numbers",
+    "randoms",
+    "unique",
+    "ids",
+    "JavaScript",
+    "Frontend",
+    "Developers",
+    "UI",
+    "usernames",
+    "passwords",
+    "hashes"
+  ],
+  "author": "Valentine Elum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vahlcode/uniquevalues/issues"
+  },
+  "homepage": "https://github.com/vahlcode/uniquevalues#readme"
+}
