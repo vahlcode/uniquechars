@@ -1,6 +1,6 @@
 {
   "name": "uniquechars",
-  "version": "1.1.1",
+  "version": "1.1.0",
   "description": "Generate unique strings and numbers from a strings or numbers. Good for generating unique ids, usernames, file names and passwords.",
   "type": "module",
   "main": "./src/index.js",
