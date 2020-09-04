@@ -1,6 +1,6 @@
 {
   "name": "uniquechars",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Generate unique strings and numbers from a strings or numbers. Good for generating unique ids, usernames, file names and passwords.",
   "type": "module",
   "main": "./src/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vahlcode/uniquevalues.git"
+    "url": "git+https://github.com/vahlcode/uniquechars.git"
   },
   "keywords": [
     "Strings",
@@ -34,15 +34,14 @@
   "author": "Valentine Elum",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vahlcode/uniquevalues/issues"
+    "url": "https://github.com/vahlcode/uniquechars/issues"
   },
-  "homepage": "https://github.com/vahlcode/uniquevalues#readme",
+  "homepage": "https://github.com/vahlcode/uniquechars#readme",
   "publishConfig": {
     "access": "public",
     "branches": [
       "master"
-    ],
-    "registry": "https://npm.pkg.github.com/"
+    ]
   },
   "devDependencies": {
     "@babel/cli": "^7.11.6",
