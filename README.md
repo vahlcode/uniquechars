@@ -16,39 +16,36 @@ npm install uniquechars
 
 To get unique random strings without parameters
 
-```JavaScript
+```javascript
 import { UNIQUE_STRING } from 'uniquechars'
 
-console.log(UNIQUE_STRING())
-// ⇨ 'QB|941@D#XK&5YD7' for example
+console.log(UNIQUE_STRING()) // ⇨ 'QB|941@D#XK&5YD7' for example
 ```
 
 To get unique random strings with parameters
 
-```JavaScript
+```javascript
 import { UNIQUE_STRING } from 'uniquechars'
 
-console.log(UNIQUE_STRING(string, length))
-// ⇨ 'QB|941@D#XK&5YD7' for example
+console.log(UNIQUE_STRING(string, length)) // ⇨ 'QB|941@D#XK&5YD7' for example
 ```
 
 ***With CommonJS syntax***
+
 To get unique random strings without parameters
 
-```JavaScript
+```javascript
 let { UNIQUE_STRING } = require('uniquechars')
 
-console.log(UNIQUE_STRING())
-// ⇨ 'QB|941@D#XK&5YD7' for example
+console.log(UNIQUE_STRING()) // ⇨ 'QB|941@D#XK&5YD7' for example
 ```
 
 To get unique random strings with parameters
 
-```JavaScript
+```javascript
 let { UNIQUE_STRING } = require('uniquechars')
 
-console.log(UNIQUE_STRING(string, length))
-// ⇨ 'QB|941@D#XK&5YD7' for example
+console.log(UNIQUE_STRING(string, length)) // ⇨ 'QB|941@D#XK&5YD7' for example
 ```
 
 *String must be a string data type and length must be a number data type.*
@@ -59,40 +56,36 @@ console.log(UNIQUE_STRING(string, length))
 
 To get unique random strings without parameters
 
-```JavaScript
+```javascript
 import { UNIQUE_NUMBER } from 'uniquechars'
 
-console.log(UNIQUE_STRING())
-// ⇨ '1098276235427165' for example
+console.log(UNIQUE_STRING()) // ⇨ '1098276235427165' for example
 ```
 
 To get unique random strings with parameters
 
-```JavaScript
+```javascript
 import { UNIQUE_NUMBER } from 'uniquechars'
 
-console.log(UNIQUE_STRING(string, length))
-// ⇨ '1098276235427165' for example
+console.log(UNIQUE_STRING(string, length)) // ⇨ '1098276235427165' for example
 ```
 
 ***With CommonJS syntax***
 
 To get unique random strings without parameters
 
-```JavaScript
+```javascript
 let { UNIQUE_NUMBER } = require('uniquechars')
 
-console.log(UNIQUE_STRING())
-// ⇨ '1098276235427165' for example
+console.log(UNIQUE_STRING()) // ⇨ '1098276235427165' for example
 ```
 
 To get unique random strings with parameters
 
-```JavaScript
+```javascript
 let { UNIQUE_NUMBER } = require('uniquechars')
 
-console.log(UNIQUE_STRING(number, length))
-// ⇨ '1098276235427165' for example
+console.log(UNIQUE_STRING(number, length)) // ⇨ '1098276235427165' for example
 ```
 
 *Number must be a number data type and length must be a number data type.*
@@ -103,56 +96,51 @@ console.log(UNIQUE_STRING(number, length))
 
 To get unique random password without parameters
 
-```JavaScript
+```javascript
 import { UNIQUE_PASS } from 'uniquechars'
 
-console.log(UNIQUE_PASS())
-// ⇨ 'QB|941@D#XK&5YD7' for example
+console.log(UNIQUE_PASS()) // ⇨ 'QB|941@D#XK&5YD7' for example
 ```
 
 To get unique random password with parameters
 
-```JavaScript
+```javascript
 import { UNIQUE_PASS } from 'uniquechars'
 
-console.log(UNIQUE_PASS(string, length))
-// ⇨ 'QB|941@D#XK&5YD7' for example
+console.log(UNIQUE_PASS(string, length)) // ⇨ 'QB|941@D#XK&5YD7' for example
 ```
 
 ***With CommonJS syntax***
 
 To get unique random password without parameters
 
-```JavaScript
+```javascript
 let { UNIQUE_PASS } = require('uniquechars')
 
-console.log(UNIQUE_PASS())
-// ⇨ 'QB|941@D#XK&5YD7' for example
+console.log(UNIQUE_PASS()) // ⇨ 'QB|941@D#XK&5YD7' for example
 ```
 
 To get unique random password with parameters
 
-```JavaScript
+```javascript
 let { UNIQUE_PASS } = require('uniquechars')
 
-console.log(UNIQUE_PASS(string, length))
-// ⇨ 'QB|941@D#XK&5YD7' for example
+console.log(UNIQUE_PASS(string, length)) // ⇨ 'QB|941@D#XK&5YD7' for example
 ```
 
 __String must be a string data type and length must be a number data type.__
 
 ## Default parameters
 
-```JavaScript
-console.log(UNIQUE_STRING(string, length))
-// ⇨ 'QB|941@D#XK&5YD7' for example
+```javascript
+console.log(UNIQUE_STRING(string, length)) // ⇨ 'QB|941@D#XK&5YD7' for example
 
 string = "#@%&*!(){}[]=_+|/\/ABCDEFGHIJKLMOPQRSTUVWXYZ1234567890"
 
 length = 16
 ```
 
-```JavaScript
+```javascript
 console.log(UNIQUE_NUMBER(number, length)) // ⇨ '1098276235427165' for example
 
 number = "1234567890"
@@ -161,7 +149,7 @@ number = "1234567890"
 length = 16
 ```
 
-```JavaScript
+```javascript
 console.log(UNIQUE_PASS(string, length)) // ⇨ 'QB|941@D#XK&5YD7' for example
 
 
