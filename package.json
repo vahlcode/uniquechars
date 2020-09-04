@@ -1,6 +1,6 @@
 {
   "name": "uniquechars",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Generate unique strings and numbers from a strings or numbers. Good for generating unique ids, usernames, file names and passwords.",
   "type": "module",
   "main": "./src/index.js",
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "git push --tags && npm publish",
+    "publish": "git push --tags",
     "build": "babel src -d public -w"
   },
   "repository": {
